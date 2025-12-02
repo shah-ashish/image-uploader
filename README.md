@@ -82,6 +82,7 @@ MONGO_URI=mongodb://localhost:27017/image-uploader
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+ALLOWED_ORIGIN='*'
 ```
 
 #### Frontend (`.env` in project root)
@@ -218,7 +219,10 @@ You can explore more endpoints and details in `Backend/readme.md`.
   - File type/size validation on both client and server.
 
 ---
+## 👤 Author
 
+[@shah-ashish](https://github.com/shah-ashish)
+----
 ### 📄 License / Contribution
 
 - You can use and modify this project for your own learning or production needs.

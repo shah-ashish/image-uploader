@@ -356,7 +356,7 @@ MIT
 
 ## 👤 Author
 
-Your Name - [@yourhandle](https://twitter.com/yourhandle)
+[@shah-ashish](https://github.com/shah-ashish)
 
 ## 🤝 Contributing
 

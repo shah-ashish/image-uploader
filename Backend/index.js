@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin:process.env.ALLOWED_ORIGIN || "*" }));
 app.use(morgan("dev"));
 
 // Connect to Database
