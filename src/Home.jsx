@@ -247,11 +247,15 @@ export default function ImageUploader() {
         {status.data.data.url}
       </a>
 
-{/*   onClick={() => {
-          navigator.clipboard.writeText(status.data.data.url);
-        }} */}
+  
 
-    <div className="w-6 h-6 rounded cursor-pointer  flex justify-center items-center bg-green-600 ">
+    <div   className="w-6 h-6 rounded cursor-pointer  flex justify-center items-center bg-green-600 "
+    onClick={() => {
+      navigator.clipboard.writeText(status.data.data.url);
+      
+    }} 
+    style={{backgroundColor:'blue'}}
+    >
    <span className="material-symbols-outlined text-white "style={{fontSize:'18px'}} >
     content_copy
    </span>
