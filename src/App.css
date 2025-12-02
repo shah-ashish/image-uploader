@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+
+
+
+
+
+
+
+/* font css */
+.fc {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+.fr{
+  font-family: "Rubik Wet Paint", system-ui;
+
+}
+.fc {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.fa{
+    font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+}
+.fhsl {
+  font-family: "Hind Siliguri", sans-serif;
+
+}
